@@ -1,13 +1,4 @@
--- ============================================================
--- ATIVIDADE SQL - SELECTS COM JOINS, AGREGAÇÕES E SUBQUERIES
--- ============================================================
 
-
--- ============================================================
--- SELECT 1
--- Ranking de professores por quantidade de disciplinas ministradas
--- Técnica: JOIN múltiplo + COUNT DISTINCT + STRING_AGG
--- ============================================================
 
 SELECT
     p.nome                            AS professor,
